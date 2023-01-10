@@ -1,5 +1,5 @@
 'use strict';
-import { Search } from '../Components/Search.js';
+import { Search } from '../components/Search.js';
 import { Avatar } from '../components/Avatar.js';
 import { html } from '../core.js';
 

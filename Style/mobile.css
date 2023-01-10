@@ -8,4 +8,10 @@
     .content {
         display: none;
     } 
-}   
+    .navbar__left__menu {
+        display: none !important;
+    }
+    .Search {
+        display: none !important;
+    }
+}
