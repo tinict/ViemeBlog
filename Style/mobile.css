@@ -14,4 +14,9 @@
     .Search {
         display: none !important;
     }
+    .logo__title {
+        font-size: 22px;
+        color: #ffffff;
+        padding: 8px 0;
+    }
 }
