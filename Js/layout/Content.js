@@ -92,6 +92,23 @@ export const Post = (...values) => {
                 <div class="post__img">
                     <img src="${values[4]}">
                 </div>
+                <div class="post__description">
+                    <div class="post__description__title">
+                        <h3>${values[2]}</h3>
+                    </div>
+                    <div class='post__user'>
+                        <div class="post__description__right">
+                            <div class="post__description__avatar">
+                                <img src="${values[0]}">
+                            </div>
+                        </div>
+                        <div class="post__description__left">
+                            <a href="#" class="post__name-user">
+                                <span class="name-user">@${values[1]}</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <div class="post__footer">
                     <div class="post__footer__container">
                         <div class="post__footer__left">
