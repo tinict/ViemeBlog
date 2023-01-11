@@ -420,6 +420,45 @@
     text-decoration: none;
     font-weight: 600;
 }
+/* css post comment */
+.post__comment {
+    margin: 10px;
+    padding: 8px;
+    background-color: #d8d8d8f3;
+    border-radius: 15px;
+}
+.post__footer__title {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.post__comment__avatar {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.post__comment__avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.post__comment__box {
+    display: flex;
+    height: 48px;
+    flex-direction: row;
+    align-items: center;
+}
+.btn__comment {
+    width: 100%;
+    border: 0;
+    background-color: #e0e9e8;
+    border-radius: 15px;
+    height: 34px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #918e8e;
+}
 
 /* Search box */
 

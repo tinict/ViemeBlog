@@ -124,6 +124,17 @@ export const Post = (...values) => {
                         </div>
                     </div>
                 </div>
+                <div class='post__comment'>
+                        <div class='post__comment__container'>
+                            <span class='post__footer__title'>Bình luận</span>
+                            <div class='post__comment__box'>
+                                <div class='post__comment__avatar'>
+                                    <img src="https://variety.com/wp-content/uploads/2022/02/Screen-Shot-2022-05-09-at-10.04.13-AM.png">
+                                </div>
+                                <button class='btn__comment'type='button'>Viết bình luận ...</button>
+                            </div>
+                        </div>
+                </div>
             </div>
         </div>
     </div>
