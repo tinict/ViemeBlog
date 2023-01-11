@@ -16,7 +16,7 @@
         display: none !important;
     }
     .logo__title {
-        font-size: 20px;
+        font-size: 18px;
         color: #ffffff;
         padding: 8px 0;
     }
@@ -62,15 +62,21 @@
     .post__description__title {
         padding: 10px 0;
     }
+    .post__description__title h3{
+        font-size: 16px;
+    }
     .post__user {
-        height: 36px;
+        height: 30px;
         display: flex;
         flex-direction: row;
         align-items: center;
     }
+    .post__name-user {
+        font-size: 14px;
+    }
     .post__description__avatar {
-        width: 36px;
-        height: 36px;
+        width: 30px;
+        height: 30px;
         border-radius: 50%;
         margin-right: 10px;
     }

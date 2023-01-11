@@ -133,7 +133,7 @@ export const Post = (...values) => {
                                 </div>
                                 <button class='btn__comment'type='button'>Viết bình luận ...</button>
                             </div>
-                        </div>
+                     </div>
                 </div>
             </div>
         </div>
