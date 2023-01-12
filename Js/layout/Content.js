@@ -123,6 +123,17 @@ export const Post = (...values) => {
                             <i class="fa-regular fa-heart icon-post"></i>
                         </div>
                     </div>
+                    <div class="post__footer__container-mobile">
+                        <div class="post__footer__left-mobile">
+                            <i class="fa-regular fa-heart icon-post"></i>
+                            <i class="fa-solid fa-comment icon-post"></i>
+                            <i class="fa-solid fa-retweet icon-post"></i>
+                            <i class="fa-solid fa-share icon-post"></i>
+                        </div>
+                        <div class="post__footer__right-mobile">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
                 </div>
                 <div class='post__comment'>
                         <div class='post__comment__container'>

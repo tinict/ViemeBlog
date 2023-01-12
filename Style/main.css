@@ -423,18 +423,16 @@
 /* css post comment */
 .post__comment {
     margin: 10px;
-    padding: 8px;
-    background-color: #d8d8d8f3;
-    border-radius: 15px;
+    padding: 8px 0;
 }
 .post__footer__title {
-    font-size: 18px;
+    font-size: 16px;
     margin: 10px 0;
     font-weight: 600;
 }
 .post__comment__avatar {
-    height: 36px;
-    width: 36px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     margin-right: 10px;
 }
@@ -444,20 +442,21 @@
     border-radius: 50%;
 }
 .post__comment__box {
+    width: 100%;
     display: flex;
-    height: 48px;
+    height: 36px;
     flex-direction: row;
     align-items: center;
+    margin: 10px 0;
 }
 .btn__comment {
-    width: 100%;
     border: 0;
-    background-color: #e0e9e8;
-    border-radius: 15px;
+    border-bottom: 1px solid #918e8e;
     height: 34px;
     font-size: 14px;
     font-weight: 600;
-    color: #918e8e;
+    color: #8e8f90ce;
+    cursor: pointer;
 }
 
 /* Search box */
