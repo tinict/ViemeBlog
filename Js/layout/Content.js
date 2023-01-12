@@ -96,6 +96,12 @@ export const Post = (...values) => {
                     <div class="post__description__title">
                         <h3>${values[2]}</h3>
                     </div>
+                    <div class='container__view'>
+                        <a href="#" class="post__view">
+                            <span class="count-heart">${1000} lượt thích</span>
+                        </a>
+                        <span class="post__time">-${'1 ngày trước'}</span>
+                    </div>
                     <div class='post__user'>
                         <div class="post__description__right">
                             <div class="post__description__avatar">
@@ -106,6 +112,7 @@ export const Post = (...values) => {
                             <a href="#" class="post__name-user">
                                 <span class="name-user">@${values[1]}</span>
                             </a>
+                            ${Button__Follow()}
                         </div>
                     </div>
                 </div>
@@ -170,7 +177,7 @@ export const HTML_Post = () => {
 
 export const Button__Follow = () => {
     return html`
-        <button type="button" class="btn__Follow">Theo dõi</button>
+        <button type="button" class="btn__Follow btn__Flollow-mobile">Theo dõi</button>
     `
 }
 

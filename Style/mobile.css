@@ -31,7 +31,7 @@
         content: "";
     }
     .content__container {
-        padding-top: 0;
+        margin-top: 0;
         display: flex;
     } 
     .content__left {
@@ -84,6 +84,18 @@
         flex-direction: row;
         align-items: center;
     }
+    .container__view {
+        display: flex;
+        font-size: 14px;
+        margin: 6px 0;
+    }
+    .post__view {
+        text-decoration: none;
+    }
+    .container__view .count-heart {
+        font-weight: 600;
+        list-style-type: none;
+    }
     .post__name-user {
         font-size: 14px;
     }
@@ -124,5 +136,8 @@
         font-size: 20px;
         margin-right: 24px;
     }
-    /* css post mobile */
+    /* css btn follow mobile */
+    .btn__Flollow-mobile {
+        font-size: 12px !important;
+    }
 }
