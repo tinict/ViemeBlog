@@ -33,7 +33,7 @@
 
 /* CSS Body Lixi */
 .lixi__close {
-    background-image: url(../img/bao-li-xi-mo.jpg);
+    background-image: url(../img/hinh-nen-powerpoint-tet-14-3.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: fixed;
@@ -41,4 +41,67 @@
     right: 0;
     bottom: 0;
     top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.lixi__close img {
+    width: 100%;
+    height: 100%;
+}
+
+.lixi__container {
+    width: 350px;
+    height: 550px;
+    cursor: pointer;
+}
+
+/* css open lixi */
+.lixi__open {
+    background-color: #ffffff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.lixi__open__container {
+    height: 95%;
+    width: 100%;
+    background-color: #c7421e;
+    position: fixed;
+    bottom: 0;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.letter__lixi {
+    background-color: #f6f5f5;
+    width: 80%;
+    height: 60%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.money {
+    color: rgba(238, 255, 151, 0.804);
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.money h3 {
+    margin: 10px 0;
+    color: #6fe177;
+    font-size: 20px;
 }

@@ -1,10 +1,18 @@
 'use strict';
-import { teamplateLixi } from "./Lixi.js";
+import { templateLixi, templateOpenLixi } from "./Lixi.js";
 
 const ElementButtonLixi = document.querySelector('.btn__lixibox');
+
 ElementButtonLixi.onclick = () => {
-    console.log('Test nut nhan lixi');
     const ElemmentRoot  = document.getElementById('root');
-    ElemmentRoot.innerHTML = teamplateLixi();
+    ElemmentRoot.innerHTML = templateLixi();
+    const ElementBoxLixi = document.querySelector('.lixi__container');
+    OpenLixi (ElementBoxLixi, ElemmentRoot);
 }
-console.log(ElementButtonLixi);
+
+function OpenLixi (Element, Root) {
+    Element.onclick = () => {
+        Root.innerHTML = templateOpenLixi();
+    }
+}
+
