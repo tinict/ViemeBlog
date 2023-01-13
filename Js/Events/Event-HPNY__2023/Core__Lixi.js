@@ -15,4 +15,10 @@ function OpenLixi (Element, Root) {
         Root.innerHTML = templateOpenLixi();
     }
 }
+  
+
+
+
+
+
 
